@@ -6,7 +6,8 @@ Maybe you need add a python modul
   pip install configparser
 </code>
 
-#Config
-	add printer name to pywebprint.conf
-#Syntax
+# Config
+add printer name to pywebprint.conf
+
+# Syntax
 http://localhost:8091/cgi-bin/printPdf.py?pdfurl=https://host/path/file.pdf 
