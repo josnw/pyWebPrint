@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 import http.server
 import socketserver
-import cgitb;
+import cgitb
+import os
 
 cgitb.enable()
+
+web_dir = os.path.join(os.path.dirname(__file__), 'web')
+os.chdir(web_dir)
 
 PORT = 8091
 HOST = "localhost"
